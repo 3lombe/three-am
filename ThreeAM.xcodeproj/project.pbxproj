@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		8C444C3BA33FB28D9BFE7382 /* Pods_ThreeAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5DB7B476BFDAE3FAD1456 /* Pods_ThreeAM.framework */; };
 		BF94DF3E21F5A123002FB186 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF94DF3D21F5A123002FB186 /* GoogleService-Info.plist */; };
+		BF94DF4121F5A3C4002FB186 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94DF4021F5A3C4002FB186 /* LoginViewController.swift */; };
+		BF94DF4321F5A455002FB186 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94DF4221F5A455002FB186 /* SignUpViewController.swift */; };
+		BF94DF4521F5A46B002FB186 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94DF4421F5A46B002FB186 /* AuthenticationViewController.swift */; };
+		BF94DF4821F613AC002FB186 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF94DF4721F613AC002FB186 /* MainTabBarViewController.swift */; };
 		BFE65C9521F1A66C00F0A569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE65C9421F1A66C00F0A569 /* AppDelegate.swift */; };
-		BFE65C9721F1A66C00F0A569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE65C9621F1A66C00F0A569 /* ViewController.swift */; };
 		BFE65C9A21F1A66C00F0A569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE65C9821F1A66C00F0A569 /* Main.storyboard */; };
 		BFE65C9C21F1A66E00F0A569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE65C9B21F1A66E00F0A569 /* Assets.xcassets */; };
 		BFE65C9F21F1A66E00F0A569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE65C9D21F1A66E00F0A569 /* LaunchScreen.storyboard */; };
@@ -19,9 +22,12 @@
 /* Begin PBXFileReference section */
 		20F46CF8E2BEE4FC5657122C /* Pods-ThreeAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeAM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeAM/Pods-ThreeAM.debug.xcconfig"; sourceTree = "<group>"; };
 		BF94DF3D21F5A123002FB186 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BF94DF4021F5A3C4002FB186 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BF94DF4221F5A455002FB186 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BF94DF4421F5A46B002FB186 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		BF94DF4721F613AC002FB186 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		BFE65C9121F1A66C00F0A569 /* ThreeAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE65C9421F1A66C00F0A569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFE65C9621F1A66C00F0A569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFE65C9921F1A66C00F0A569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFE65C9B21F1A66E00F0A569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE65C9E21F1A66E00F0A569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +65,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BF94DF3F21F5A391002FB186 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				BF94DF4021F5A3C4002FB186 /* LoginViewController.swift */,
+				BF94DF4221F5A455002FB186 /* SignUpViewController.swift */,
+				BF94DF4421F5A46B002FB186 /* AuthenticationViewController.swift */,
+				BF94DF4721F613AC002FB186 /* MainTabBarViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		BF94DF4621F5A496002FB186 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BFE65C9821F1A66C00F0A569 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		BFE65C8821F1A66C00F0A569 = {
 			isa = PBXGroup;
 			children = (
@@ -80,9 +105,9 @@
 		BFE65C9321F1A66C00F0A569 /* ThreeAM */ = {
 			isa = PBXGroup;
 			children = (
+				BF94DF4621F5A496002FB186 /* Storyboards */,
+				BF94DF3F21F5A391002FB186 /* VC */,
 				BFE65C9421F1A66C00F0A569 /* AppDelegate.swift */,
-				BFE65C9621F1A66C00F0A569 /* ViewController.swift */,
-				BFE65C9821F1A66C00F0A569 /* Main.storyboard */,
 				BFE65C9B21F1A66E00F0A569 /* Assets.xcassets */,
 				BFE65C9D21F1A66E00F0A569 /* LaunchScreen.storyboard */,
 				BFE65CA021F1A66E00F0A569 /* Info.plist */,
@@ -226,7 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFE65C9721F1A66C00F0A569 /* ViewController.swift in Sources */,
+				BF94DF4821F613AC002FB186 /* MainTabBarViewController.swift in Sources */,
+				BF94DF4521F5A46B002FB186 /* AuthenticationViewController.swift in Sources */,
+				BF94DF4321F5A455002FB186 /* SignUpViewController.swift in Sources */,
+				BF94DF4121F5A3C4002FB186 /* LoginViewController.swift in Sources */,
 				BFE65C9521F1A66C00F0A569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +405,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFEPFYUD7S;
 				INFOPLIST_FILE = ThreeAM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = NsonsaKisala.ThreeAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -393,7 +424,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFEPFYUD7S;
 				INFOPLIST_FILE = ThreeAM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = NsonsaKisala.ThreeAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
