@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C444C3BA33FB28D9BFE7382 /* Pods_ThreeAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5DB7B476BFDAE3FAD1456 /* Pods_ThreeAM.framework */; };
+		BF94DF3E21F5A123002FB186 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF94DF3D21F5A123002FB186 /* GoogleService-Info.plist */; };
 		BFE65C9521F1A66C00F0A569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE65C9421F1A66C00F0A569 /* AppDelegate.swift */; };
 		BFE65C9721F1A66C00F0A569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE65C9621F1A66C00F0A569 /* ViewController.swift */; };
 		BFE65C9A21F1A66C00F0A569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE65C9821F1A66C00F0A569 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20F46CF8E2BEE4FC5657122C /* Pods-ThreeAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeAM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeAM/Pods-ThreeAM.debug.xcconfig"; sourceTree = "<group>"; };
+		BF94DF3D21F5A123002FB186 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BFE65C9121F1A66C00F0A569 /* ThreeAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE65C9421F1A66C00F0A569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE65C9621F1A66C00F0A569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		BFE65C9B21F1A66E00F0A569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE65C9E21F1A66E00F0A569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE65CA021F1A66E00F0A569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E790FF8C340486B09E486D12 /* Pods-ThreeAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeAM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeAM/Pods-ThreeAM.release.xcconfig"; sourceTree = "<group>"; };
+		EEB5DB7B476BFDAE3FAD1456 /* Pods_ThreeAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C444C3BA33FB28D9BFE7382 /* Pods_ThreeAM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74D25FA6B45EB7955C9BCB58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5DB7B476BFDAE3FAD1456 /* Pods_ThreeAM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4CDF883D52FE9E9E807DA7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20F46CF8E2BEE4FC5657122C /* Pods-ThreeAM.debug.xcconfig */,
+				E790FF8C340486B09E486D12 /* Pods-ThreeAM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BFE65C8821F1A66C00F0A569 = {
 			isa = PBXGroup;
 			children = (
 				BFE65C9321F1A66C00F0A569 /* ThreeAM */,
 				BFE65C9221F1A66C00F0A569 /* Products */,
+				B4CDF883D52FE9E9E807DA7D /* Pods */,
+				74D25FA6B45EB7955C9BCB58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				BFE65C9B21F1A66E00F0A569 /* Assets.xcassets */,
 				BFE65C9D21F1A66E00F0A569 /* LaunchScreen.storyboard */,
 				BFE65CA021F1A66E00F0A569 /* Info.plist */,
+				BF94DF3D21F5A123002FB186 /* GoogleService-Info.plist */,
 			);
 			path = ThreeAM;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFE65CA321F1A66E00F0A569 /* Build configuration list for PBXNativeTarget "ThreeAM" */;
 			buildPhases = (
+				F33E8D45F48B651A8CC44AE1 /* [CP] Check Pods Manifest.lock */,
 				BFE65C8D21F1A66C00F0A569 /* Sources */,
 				BFE65C8E21F1A66C00F0A569 /* Frameworks */,
 				BFE65C8F21F1A66C00F0A569 /* Resources */,
+				3FBD8B432C31594A1E9E85FA /* [CP] Embed Pods Frameworks */,
+				177CE0E5588836A9BA304502 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF94DF3E21F5A123002FB186 /* GoogleService-Info.plist in Resources */,
 				BFE65C9F21F1A66E00F0A569 /* LaunchScreen.storyboard in Resources */,
 				BFE65C9C21F1A66E00F0A569 /* Assets.xcassets in Resources */,
 				BFE65C9A21F1A66C00F0A569 /* Main.storyboard in Resources */,
@@ -129,6 +160,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		177CE0E5588836A9BA304502 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeAM/Pods-ThreeAM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FBD8B432C31594A1E9E85FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThreeAM/Pods-ThreeAM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeAM/Pods-ThreeAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33E8D45F48B651A8CC44AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThreeAM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFE65C8D21F1A66C00F0A569 /* Sources */ = {
@@ -280,15 +371,13 @@
 		};
 		BFE65CA421F1A66E00F0A569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F46CF8E2BEE4FC5657122C /* Pods-ThreeAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFEPFYUD7S;
 				INFOPLIST_FILE = ThreeAM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NsonsaKisala.ThreeAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -298,15 +387,13 @@
 		};
 		BFE65CA521F1A66E00F0A569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E790FF8C340486B09E486D12 /* Pods-ThreeAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFEPFYUD7S;
 				INFOPLIST_FILE = ThreeAM/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NsonsaKisala.ThreeAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
